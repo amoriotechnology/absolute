@@ -30,6 +30,8 @@
   <!-- venobox popup -->
   <link rel="stylesheet" href="plugins/venobox/venobox.css">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <!-- Main Stylesheet -->
   <link href="css/style.css" rel="stylesheet">
 
@@ -54,14 +56,22 @@
       <div class="row no-gutters">
         <div class="col-lg-4 text-center text-lg-left">
           <a class="text-color mr-3" href="tel:+(856) 786-4888"><strong>CALL</strong>(856) 786-4888</a>
+          <a class="text-color mr-3" href="mailto:phan@absolutegranites.com"><strong></strong>phan@absolutegranites.com</a>
         </div>
-        <div class="col-lg-8 text-center text-lg-right">
+        <div class="col-lg-4 text-center text-lg-right">
           <ul class="list-inline d-inline">
             <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://facebook.com/themefisher/"><i class="ti-facebook"></i></a></li>
             <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://twitter.com/themefisher"><i class="ti-twitter-alt"></i></a></li>
-            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://github.com/themefisher"><i class="ti-github"></i></a></li>
             <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://instagram.com/themefisher/"><i class="ti-instagram"></i></a></li>
           </ul>
+        </div>
+        <div class="col-lg-4 text-center text-lg-right">
+          <div class="search-container">
+            <form action="">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
@@ -70,30 +80,16 @@
   <div class="navigation w-100">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark p-0">
-        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" width="220" alt="logo"></a>
         <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
           aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navigation">
-          <ul class="navbar-nav ml-auto text-center">
+          <ul class="navbar-nav ml-auto text-center" style="font-family: 'Playfair Display',Georgia,;font-family: 'Playfair Display',Georgia,&quot;Times New Roman&quot;,serif;">
             <li class="nav-item @@home">
               <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item dropdown view">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Product
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="marble.html">Marbles</a></li>
-                <li><a class="dropdown-item" href="granite.html">Granite</a></li>
-                <li><a class="dropdown-item" href="quartz.html">Quartz</a></li>
-                <li><a class="dropdown-item" href="quartzite.html">Quartzite</a></li>
-              </ul>
             </li>
             <li class="nav-item dropdown view">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -118,11 +114,39 @@
                 <li><a class="dropdown-item" href="office.html">Office &amp; Retail</a></li>
               </ul>
             </li>
+            
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Product
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="granite.html">Granite</a></li>
+                <li><a class="dropdown-item" href="quartzite.html">Quartzite</a></li>
+                <li><a class="dropdown-item" href="marble.html">Marbles</a></li>
+                <!-- <li><a class="dropdown-item" href="quartz.html">Quartz</a></li> -->
+                <li class="dropdown-item dropdown dropleft">
+                  <a class="dropdown-toggle" href="#" id="navbarDropdownSubmenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Quartz
+                  </a>
+                  <ul class="dropdown-menu dropdown-submenu" aria-labelledby="navbarDropdownSubmenu">
+                    <li><a class="dropdown-item" href="caesarstone_quartz.html">Caesarstone Quartz</a></li>
+                    <li><a class="dropdown-item" href="cambria_quartz.html">Cambria Quartz</a></li>
+                    <li><a class="dropdown-item" href="ecorecycled_quartz.html">ECO Recycled Quartz</a></li>
+                    <li><a class="dropdown-item" href="lgviatera_quartz.html">LG Viatera Quartz</a></li>
+                    <li><a class="dropdown-item" href="qpremium_quartz.html">Q Premium Quartz</a></li>
+                    <li><a class="dropdown-item" href="silestone_quartz.html">Silestone Quartz</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
             <li class="nav-item @@gallery">
               <a class="nav-link" href="gallery.html">Gallery</a>
             </li>
             <li class="nav-item @@freeestimate">
-              <a class="nav-link" href="estimate.html">FreeEstimate</a>
+              <a class="nav-link" href="select_quote.html">SelectQuote</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item @@contact">
               <a class="nav-link" href="contact.html">CONTACT</a>
@@ -218,7 +242,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <img class="img-fluid w-100 mb-4" src="images/about/about.png" alt="about image">
+        <!-- <img class="img-fluid w-100 mb-4" src="images/about/about.png" alt="about image"> -->
         <h2 class="section-title">Absolute Marble & Granite Corp</h2>
         <p>We are one of the fastest-growing providers of fabrication and installation of stone materials in South Jersey. We take pride in our amazing price points, speedy fabrication and installation timeframes. These offerings, combined with our first-class customer service, create an unmatched experience for all our customers and partners.</p>
         <p>
@@ -250,40 +274,72 @@
 </section>
 
 <!-- funfacts -->
-<section class="section-sm bg-primary">
+ <!-- ======= Team Section ======= -->
+ <section id="team" class="team">
   <div class="container">
-    <div class="row">
-      <!-- funfacts item -->
-      <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-        <div class="text-center">
-          <h2 class="count text-white" data-count="0">0</h2>
-          <h5 class="text-white">Projects</h5>
-        </div>
-      </div>
-      <!-- funfacts item -->
-      <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-        <div class="text-center">
-          <h2 class="count text-white" data-count="0">0</h2>
-          <h5 class="text-white">Clients</h5>
-        </div>
-      </div>
-      <!-- funfacts item -->
-      <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-        <div class="text-center">
-          <h2 class="count text-white" data-count="0">0</h2>
-          <h5 class="text-white">Orders</h5>
-        </div>
-      </div>
-      <!-- funfacts item -->
-      <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
-        <div class="text-center">
-          <h2 class="count text-white" data-count="0">0</h2>
-          <h5 class="text-white">Satisfied Client</h5>
-        </div>
-      </div>
+
+    <div class="section-title">
+      <!-- <span>Team</span> -->
+      <h2>Team</h2>
     </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="member">
+          <img src="images/teams/1.jpg" alt="">
+          <h4>Walter White</h4>
+          <span>Chief Executive Officer</span>
+          <p>
+            Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
+          </p>
+          <div class="social">
+            <a href="" style="margin: 0 3px;"><i class="ti-facebook text-primary"></i></a>
+            <a href="" style="margin: 0 3px;"><i class="ti-twitter text-primary"></i></a>
+            <a href="" style="margin: 0 3px;"><i class="ti-instagram text-primary"></i></a>
+            <a href="" style="margin: 0 3px;"><i class="ti-linkedin text-primary"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="member">
+          <img src="images/teams/2.jpg" alt="">
+          <h4>Sarah Jhinson</h4>
+          <span>Product Manager</span>
+          <p>
+            Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
+          </p>
+          <div class="social">
+            <a href="" style="margin: 0 3px;"><i class="ti-facebook text-primary"></i></a>
+            <a href="" style="margin: 0 3px;"><i class="ti-twitter text-primary"></i></a>
+            <a href="" style="margin: 0 3px;"><i class="ti-instagram text-primary"></i></a>
+            <a href="" style="margin: 0 3px;"><i class="ti-linkedin text-primary"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+        <div class="member">
+          <img src="images/teams/3.jpg" alt="">
+          <h4>William Anderson</h4>
+          <span>CTO</span>
+          <p>
+            Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
+          </p>
+          <div class="social">
+            <a href="" style="margin: 0 3px;"><i class="ti-facebook text-primary"></i></a>
+            <a href="" style="margin: 0 3px;"><i class="ti-twitter text-primary"></i></a>
+            <a href="" style="margin: 0 3px;"><i class="ti-instagram text-primary"></i></a>
+            <a href="" style="margin: 0 3px;"><i class="ti-linkedin text-primary"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+      
   </div>
-</section>
+  <br><br>
+</section><!-- End Team Section -->
 <!-- /funfacts -->
 
 <!-- success story -->
@@ -291,9 +347,9 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-sm-4 position-relative success-video">
-        <a class="play-btn venobox" href="https://youtu.be/nA1Aqp0sPQo" data-vbtype="video">
+        <!-- <a class="play-btn venobox" href="https://youtu.be/nA1Aqp0sPQo" data-vbtype="video">
           <i class="ti-control-play"></i>
-        </a>
+        </a> -->
       </div>
       <div class="col-lg-6 col-sm-8">
         <div class="bg-white p-5">
@@ -390,7 +446,6 @@
           <ul class="list-inline">
             <li class="list-inline-item"><a class="d-inline-block p-2" href="https://facebook.com/"><i class="ti-facebook text-primary"></i></a></li>
             <li class="list-inline-item"><a class="d-inline-block p-2" href="https://twitter.com/"><i class="ti-twitter-alt text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://github.com/"><i class="ti-github text-primary"></i></a></li>
             <li class="list-inline-item"><a class="d-inline-block p-2" href="https://instagram.com/"><i class="ti-instagram text-primary"></i></a></li>
           </ul>
         </div>
@@ -422,6 +477,26 @@
 <!-- Start of HubSpot Embed Code -->
   <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/22675730.js"></script>
 <!-- End of HubSpot Embed Code -->
+
+<style>
+  .team .member {
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 10%);
+    padding: 30px 20px;
+    background: #fff;
+}
+
+.team .member img {
+    max-width: 60%;
+    border-radius: 50%;
+    margin: 0 0 30px 0;
+}
+
+.team .member .social {
+    margin-top: 15px;
+}
+</style>
 
 </body>
 </html>
