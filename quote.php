@@ -36,18 +36,14 @@ if(isset($_POST['submit_btn'])){
     $zipcode = $_POST['zipcode'];
     $message = $_POST['message'];
 
-
-
-
-
     try {
         //Server settings
         $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      
         $mail->isSMTP();                                           
         $mail->Host       = 'smtp.gmail.com';                     
         $mail->SMTPAuth   = true;                                  
-        $mail->Username   = 'amoriotechonologies@gmail.com';                     
-        $mail->Password   = 'bwskajgehkrdhkpa';                               
+        $mail->Username   = 'amoriotechonology@gmail.com';                     
+        $mail->Password   = 'swsfpddpqrtwvryn';                               
         $mail->SMTPSecure = 'tls';            
         $mail->Port       = 587;                                   
 
