@@ -50,7 +50,7 @@ if(isset($_POST['submit_btn'])){
         //Recipients
         // $mail->setFrom('madhu@yopmail.com', 'Madhu');
         $mail->setFrom('madhu@yopmail.com', 'AbsoluteStones');
-        $mail->addAddress('madhu@yopmail.com', 'Joe User');     //Add a recipient
+        $mail->addAddress($email, 'Joe User');     //Add a recipient
         // $mail->addAddress('ellen@example.com');               //Name is optional
         // $mail->addReplyTo('info@example.com', 'Information');
         // $mail->addCC('cc@example.com');
