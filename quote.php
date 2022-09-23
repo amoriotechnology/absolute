@@ -28,6 +28,7 @@ if(isset($_POST['submit_btn'])){
     $product_color = $_POST['product_color'];
     $popular_edge = $_POST['popular_edge'];
     $luxury_edge = $_POST['luxury_edge'];
+    $sink = $_POST['sink'];
     $cut_outs = $_POST['cut_outs'];
     $cooktop = $_POST['cooktop'];
     $name = $_POST['name'];
@@ -66,7 +67,7 @@ if(isset($_POST['submit_btn'])){
         $mail->isHTML(true);                                  //Set email format to HTML
         $mail->Subject = 'Here is the subject';
         $mail->Body    = " <b>Layout :</b>  $layout_view "."<br> <b> Dimension :</b>  $dimension_1 "."<br> <b> ProductColor :</b>  $product_color "."<br> 
-        <b> PopularEdge :</b>  $popular_edge "."<br>  <b> LuxuryEdge :</b>  $luxury_edge "."<br> <b> CutsOuts :</b>  $cut_outs "."<br> <b> CookTop :</b>  $cooktop "."<br>
+        <b> PopularEdge :</b>  $popular_edge "."<br>  <b> LuxuryEdge :</b>  $luxury_edge "."<br> <b> CutsOuts :</b>  $cut_outs "."<br> <b> Sink :</b>  $sink "."<br> <b> CookTop :</b>  $cooktop "."<br>
         <b> Name :</b>  $name "."<br> <b> Email :</b>  $email "."<br> <b> Phonenumber :</b>  $phone_number "."<br> <b> Zipcode :</b>  $zipcode "."<br> <b> Message :</b>  $message "."<br>";
         $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 

@@ -236,7 +236,7 @@ select:focus {
 }
 
 a:hover {
-  color: #ffbc3b;
+  color: #fff;
 }
 
 a.text-primary:hover {
@@ -275,10 +275,11 @@ a h4:hover {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  height: 800px;
 }
 
 .border-primary {
-  border-color: #ededf1 !important;
+  border-color: transparent !important;
 }
 
 /* overlay */
@@ -321,7 +322,7 @@ a h4:hover {
 }
 
 .text-color {
-  color: #5c5c77;
+  color: #fff;
 }
 
 .text-light {
@@ -422,7 +423,7 @@ a h4:hover {
   font-size: 20px;
   top: 50%;
   left: -5px;
-  color: #fff;
+  color: #0B0B45;
   transform: translateY(-50%);
 }
 
@@ -466,7 +467,7 @@ textarea.form-control {
 }
 
 .navigation {
-  background: linear-gradient(to right, transparent 50%, #ffbc3b 50%);
+  background: linear-gradient(to right, transparent 50%, #fff 50%);
   transition: 0.2s ease;
 }
 @media (max-width: 991px) {
@@ -487,7 +488,7 @@ textarea.form-control {
 
 .navbar-nav {
   padding-left: 50px;
-  background: #ffbc3b;
+  background: #fff;
 }
 @media (max-width: 991px) {
   .navbar-nav {
@@ -538,19 +539,19 @@ textarea.form-control {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #fff;
+  color: #0B0B45;
 }
 
-link:focus,
+/* link:focus,
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #fff;
-}
+} */
 
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show > .nav-link {
-  color: #fff;
+  color: #0B0B45;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -676,6 +677,7 @@ link:focus,
   font-size: 30px;
   transition: all linear 0.2s;
   background: transparent;
+  visibility: hidden;
 }
 .hero-slider .prevArrow:focus,
 .hero-slider .nextArrow:focus {
@@ -713,6 +715,7 @@ link:focus,
   background: rgba(255, 255, 255, 0.5);
   border: 0;
   outline: 0;
+  display: none;
 }
 
 /* banner feature */
@@ -767,9 +770,9 @@ link:focus,
 .hover-shadow {
   transition: 0.3s ease;
 }
-.hover-shadow:hover {
+/* .hover-shadow:hover {
   box-shadow: 0px 4px 25px 0px rgba(27, 39, 71, 0.15);
-}
+} */
 
 /* /course */
 /* success story */
@@ -908,7 +911,7 @@ link:focus,
 }
 
 .bg-footer {
-  background-color: #1a1a37;
+  background-color: #0B0B45;
 }
 
 .logo-footer {
