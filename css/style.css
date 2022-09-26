@@ -514,6 +514,8 @@ textarea.form-control {
   text-transform: uppercase;
   font-weight: 600;
 }
+
+
 .nav-item::before {
   position: absolute;
   left: 0;
