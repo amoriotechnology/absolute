@@ -226,8 +226,8 @@
     <div class="row">
       <div class="col-md-8">
         <ul class="list-inline custom-breadcrumb mb-2">
-          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="index.html" style="color: #0B0B45 !important;">Home</a></li>
-          <li class="list-inline-item text-white h3 font-secondary nasted" style="color: #0B0B45 !important;">Contact Us</li>
+          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="index.html" style="color: #fff !important;">Home</a></li>
+          <li class="list-inline-item text-white h3 font-secondary nasted" style="color: #fff !important;">Contact Us</li>
         </ul>
       </div>
     </div>
@@ -254,6 +254,72 @@
                 version: "V2_PRERELEASE"
             });
             </script>
+
+            <!-- <br><br>
+            <form action="" method="POST">
+              <div class="form-group">
+                <label>Your Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label>Your Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label>Phone Number:</label>
+                <input type="text" class="form-control" id="phone_number" placeholder="Enter phonenumber" name="phone_number">
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label>Select Date:</label>
+                    <input type="date" class="form-control" id="date" name="date" required> 
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label>Preferred:</label>
+                      <select class="form-control" name="preffered" id="preffered">
+                        <option value="">Please Select</option>
+                        <option value="morning">Morning</option>
+                        <option value="afternoon">Afternoon</option>
+                        <option value="evening">Evening</option>
+                      </select>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label>How did you hear about us?</label>
+                <ul id="menu">
+                  <li class="parent"><a href="#">Please Select</a>
+                    <ul class="child">
+                      <li><a href="#">Social Media Marketing</a></li>
+                      <li><a href="#">Contractors</a></li>
+                      <li class="parent"><a href="#">Staff<span class="expand">»</span></a>
+                        <ul class="child">
+                          <li><a href="#" nowrap>Cards</a></li>
+                          <li><a href="#" nowrap>Numbers</a></li>
+                        </ul></li>
+                      <li><a href="#">Uno Cards</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                  <select class="form-control" name="hear_about" id="hear_about">
+                    <option value="">Please Select</option>
+                    <option value="socialmediamarketing">Social Media Marketing</option>
+                    <option value="contractors">Contractors</option>
+                    <option value="familyfriends">Family Friends</option>
+                    <option value="kitchendealers">Kitchen Dealers</option>
+                    <option value="owner">Owner</option>
+                    <option value="staff">Staff</option>
+                  </select>
+              </div>
+              <div class="form-group">
+                <label>Your Message:</label>
+                <textarea name="message" id="message" cols="30" rows="10" class="form-control"></textarea>
+              </div>
+              <button type="submit" name="book_appointment" class="btn btn-primary">Submit</button>
+            </form> -->
       </div>
     </div>
   </div>
@@ -374,6 +440,72 @@ function open_product()
   window.location.href = 'https://amoriotechnology.github.io/absolute/product.html';
 }
 </script>
+
+<style>
+  .parent {
+	display: block;
+	position: relative;
+	float: left;
+	line-height: 30px;
+	background-color: #4FA0D8;
+	border-right: #CCC 1px solid;
+}
+
+.parent a {
+	margin: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.parent:hover>ul {
+	display: block;
+	position: absolute;
+}
+
+.child {
+	display: none;
+}
+
+.child li {
+	background-color: #E4EFF7;
+	line-height: 30px;
+	border-bottom: #CCC 1px solid;
+	border-right: #CCC 1px solid;
+	width: 100%;
+}
+
+.child li a {
+	color: #000000;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+	min-width: 10em;
+}
+
+ul ul ul {
+	left: 100%;
+	top: 0;
+	margin-left: 1px;
+}
+
+li:hover {
+	background-color: #95B4CA;
+}
+
+.parent li:hover {
+	background-color: #F0F0F0;
+}
+
+.expand {
+	font-size: 12px;
+	float: right;
+	margin-right: 5px;
+}
+View Demo
+</style>
 
 </body>
 </html>

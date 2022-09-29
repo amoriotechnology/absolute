@@ -236,7 +236,7 @@ select:focus {
 }
 
 a:hover {
-  color: #fff;
+  color: #ffbc3b !important;
 }
 
 a.text-primary:hover {
@@ -423,7 +423,7 @@ a h4:hover {
   font-size: 20px;
   top: 50%;
   left: -5px;
-  color: #0B0B45;
+  color: #fff;
   transform: translateY(-50%);
 }
 
