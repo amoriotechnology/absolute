@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("adsDraftCreateToastCardForPublishFailure",["fbt","AdsDraftConstants","adsDraftCreateToastCardForPublishEnd","adsDraftGetFragmentStatusesFromPublishResponse"],(function(a,b,c,d,e,f,g,h){"use strict";function a(a,b,e){var f=h._("Something went wrong and your items weren't published. Please try again later.");return c("adsDraftCreateToastCardForPublishEnd")({id:a,canDismiss:!0,cardType:"warning",header:d("AdsDraftConstants").NO_CHANGES_APPLIED_HEADER,bodyText:f,shouldFailInteraction:e},c("adsDraftGetFragmentStatusesFromPublishResponse")(b),b==null?void 0:b.async_request_set_id)}g["default"]=a}),98);
+__d("XOfflineCustomDataStatsQueryAsyncController",["XController"],(function(a,b,c,d,e,f){e.exports=b("XController").create("/offline_events/custom_data_stats/",{dataset_id:{type:"FBID",required:!0},value:{type:"String",defaultValue:""}})}),null);

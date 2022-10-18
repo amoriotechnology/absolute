@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("AdsDeliveryAudienceExpansionResetModalReducerPlugin",[],(function(a,b,c,d,e,f){"use strict";a={reduce:function(a){return babelHelpers["extends"]({},a,{campaignIDToShowDisclosureUI:null})}};b=a;f["default"]=b}),66);

@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("useTimeout",["clearTimeout","react","setTimeout","useEffectOnce"],(function(a,b,c,d,e,f,g){"use strict";b=d("react");var h=b.useCallback,i=b.useRef,j=b.useState;function a(a,b){b===void 0&&(b=!0);var d=i(null),e=j(b),f=e[0],g=e[1],k=h(function(){g(!1),c("clearTimeout")(d.current)},[]),l=h(function(){g(!0),d.current=c("setTimeout")(function(){g(!1)},a)},[a]);e=h(function(){c("clearTimeout")(d.current),l()},[l]);c("useEffectOnce")(function(){b&&l();return k});return{pending:f,clear:k,restart:e}}g["default"]=a}),98);

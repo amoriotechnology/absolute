@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("AdsDeliveryAudienceExpansionModalProvider",["AdsDeliveryAudienceExpansionModalProviderPlugin","Laminar"],(function(a,b,c,d,e,f){"use strict";e.exports=b("Laminar").__createProvider(b("AdsDeliveryAudienceExpansionModalProviderPlugin"),"AdsDeliveryAudienceExpansionModalProviderPlugin")}),null);

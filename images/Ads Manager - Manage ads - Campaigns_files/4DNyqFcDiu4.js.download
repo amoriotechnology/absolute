@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("SignalsEmployeeOnlyErrorPopover.react",["GeoText.react","cr:5020","cr:5021","react"],(function(a,b,c,d,e,f,g){"use strict";var h=d("react");function a(a){a=a.text;return b("cr:5021")==null||b("cr:5020")==null?null:h.jsx(b("cr:5020"),{content:[h.jsx("div",{style:{height:300},children:h.jsx(b("cr:5021"),{display:"block",maxHeight:300,wrap:"break-word",children:a})},1)],"data-testid":void 0,heading:"Error Details",renderDelay:100,children:h.jsx(c("GeoText.react"),{display:"block",children:"FB-Only: Hover to see error details"})})}a.displayName=a.name+" [from "+f.id+"]";g["default"]=a}),98);
+__d("isIntern",[],(function(a,b,c,d,e,f){"use strict";function a(){if(typeof window==="undefined"||!window||!window.location||!window.location.pathname)return!1;var a=window.location.pathname,b="/intern";return a.substr(0,b.length)===b}f["default"]=a}),66);

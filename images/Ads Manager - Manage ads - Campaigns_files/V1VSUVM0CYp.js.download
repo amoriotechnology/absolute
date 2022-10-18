@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("BIActorSpokeUtils",["ix"],(function(a,b,c,d,e,f,g,h){"use strict";function a(a){switch(a){case 1:return"USER";case 2:return"BUSINESS";case 3:return"PAGE";case 4:return"AD_ACCOUNT";case 0:return null;default:return null}}b=h("222764");g.convertAdvertisingAccessRestrictionTypeToBIActorEnforcementEntityType=a;g.RESTRICTION_IMAGE_ASSET=b}),98);

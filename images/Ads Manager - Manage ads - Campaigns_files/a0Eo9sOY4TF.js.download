@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("StgComponentHeadingExtraLargeBoldCenterShowreelAssetSchema",["ShowreelHeadlineFieldSchema"],(function(a,b,c,d,e,f){"use strict";a={type:"Shape",fields:{showreelHeadlineField:babelHelpers["extends"]({name:"ShowreelHeadlineField",nullable:!1,"default":null},b("ShowreelHeadlineFieldSchema"))},nullable:!1,"default":null,name:"StgComponentHeadingExtraLargeBoldCenterShowreelAsset"};e.exports=a}),null);

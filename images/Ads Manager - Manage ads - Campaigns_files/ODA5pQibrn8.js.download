@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("PerformanceSummaryAdCreativePerformanceGuidanceCardWidgetPlugin",["AdsPerformanceSummaryTypes","PerformanceSummaryAdCreativePerformanceGuidanceCard.react","react"],(function(a,b,c,d,e,f,g){"use strict";var h=d("react");a={type:"performanceSummaryWidget",key:"adCreativePerformanceGuidance",name:d("AdsPerformanceSummaryTypes").PerformanceSummaryWidgetNamesEnum.AdCreativePerformanceGuidanceCard,isEnabled:function(a){return a.currentLevel==="ad"&&a.numSelectedAdgroups>0||a.currentLevel==="ad_set"},ContentComponent:function(){return h.jsx(c("PerformanceSummaryAdCreativePerformanceGuidanceCard.react"),{})}};b=a;g["default"]=b}),98);

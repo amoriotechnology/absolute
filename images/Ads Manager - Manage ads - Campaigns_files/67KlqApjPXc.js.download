@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("StgComponentHeadingLargeBoldLeftShowreelAsset.asset",["ShowreelAsset"],(function(a,b,c,d,e,f,g){"use strict";function a(a){a=a.content.showreelHeadlineField;var b={view:{alignItems:"flex-start"},text:{width:"100%",fontSize:{min:26,max:32},fontFamily:"Roboto Bold",fontWeight:"bold",color:"white"}};return d("ShowreelAsset").createElement(d("ShowreelAsset").View,{style:b.view},d("ShowreelAsset").createElement(d("ShowreelAsset").Text,{style:b.text},a))}g["default"]=a}),98);

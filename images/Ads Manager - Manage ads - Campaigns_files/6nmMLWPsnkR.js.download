@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("VCEShowReelAssetPlayerOverlay",["ReactHoverEvent.react","react"],(function(a,b,c,d,e,f,g){"use strict";a=d("react");var h=a.useRef,i=a.useState;b=function(){var a=i(!1),b=a[0],c=a[1];a=h(null);d("ReactHoverEvent.react").useHover(a,{onHoverStart:function(){return c(!0)},onHoverEnd:function(){return c(!1)}});return[a,b]};g.usePreviewHover=b}),98);

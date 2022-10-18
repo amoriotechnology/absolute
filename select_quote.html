@@ -114,78 +114,6 @@
                 <li class="nav-item dropdown view">
                   <a
                     class="nav-link dropdown-toggle"
-                    href="inspiration.html"
-                    id="navbarDropdown"
-                    role="button"
-                    onclick="open_win()"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Inspiration
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li>
-                      <a class="dropdown-item" href="kitchen.html">Kitchen</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="bathroom.html">Bathroom</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="bar.html"
-                        >Bar &amp; Entertainment</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="fireplace.html"
-                        >Fireplace &amp; Outdoor Kitchen</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="boat.html"
-                        >Boat &amp; Yacht</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown view">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="commercial.html"
-                    onclick="open_commercial()"
-                    id="navbarDropdown"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    Commercial
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li>
-                      <a class="dropdown-item" href="restaurant.html"
-                        >Bar &amp; Restaurant</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="hotel.html">Hotel</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="appartment.html"
-                        >Apartments &amp; Condos</a
-                      >
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="office.html"
-                        >Office &amp; Retail</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-
-                <li class="nav-item dropdown view">
-                  <a
-                    class="nav-link dropdown-toggle"
                     href="product.html"
                     onclick="open_product()"
                     id="navbarDropdown"
@@ -232,12 +160,81 @@
                     </li>
                   </ul>
                 </li>
+                <li class="nav-item dropdown view">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="inspiration.html"
+                    id="navbarDropdown"
+                    role="button"
+                    onclick="open_win()"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Inspiration
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a class="dropdown-item" href="kitchen.html">Kitchen</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="bathroom.html">Bathroom</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="bar.html"
+                        >Bar &amp; Entertainment</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="fireplace.html"
+                        >Fireplace &amp; Outdoor Kitchen</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="boat.html"
+                        >Boat &amp; Yacht</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
                 <a class="navbar-brand" href="index.html"
               ><img src="images/logo.png" width="200" alt="logo"
             /></a>
-                <li class="nav-item @@gallery">
-                  <a class="nav-link" href="gallery.html">Gallery</a>
+            <li class="nav-item dropdown view">
+              <a
+                class="nav-link dropdown-toggle"
+                href="commercial.html"
+                onclick="open_commercial()"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Commercial
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="restaurant.html"
+                    >Bar &amp; Restaurant</a
+                  >
                 </li>
+                <li>
+                  <a class="dropdown-item" href="hotel.html">Hotel</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="appartment.html"
+                    >Apartments &amp; Condos</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="office.html"
+                    >Office &amp; Retail</a
+                  >
+                </li>
+              </ul>
+            </li>
                 <li class="nav-item dropdown view">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Select Quote
@@ -438,6 +435,9 @@
             </p>
             <form action="quote.php" method="POST">
               <div class="row">
+                <input type="checkbox" name="counter_remove" value="Remove Existing Countertop" id="counter_remove" /><span
+              style="margin-top: 8px; font-weight:bold;">&nbsp;&nbsp;In Need Removal Existing Countertop</span>
+              <br> <br>
                 <img src="images/kitchen-layout.png" alt="" />
                 <div class="col-md-3" style="text-align: center">
                   <br />
@@ -682,7 +682,24 @@
                 </div>
               </div>
               <br /><br /><br />
-              <h3>5. Your Information:</h3>
+              <h3>5. How did you hear about us?</h3>
+              <div class="row">
+                 <div class="col-md-12">
+                    <select name="hear_about" id="hear_about" class="form-control">
+                      <option value="">Please Select</option>
+                      <option value="social media">Social Media Marketing</option>
+                      <option value="contractors">Contractors</option>
+                      <option value="family friends">Family Friends</option>
+                      <option value="kitchen dealers">Kitchen Dealers</option>
+                      <option value="owner">Owner</option>
+                      <option value="staff">Staff</option>
+                    </select>
+                 </div>
+                 <input type="hidden" id="hear" name="hear">
+                <div id="add_input"></div>
+              </div>
+              <br /><br /><br />
+              <h3>6. Your Information:</h3>
               <div class="row">
                 <div class="col-md-6">
                   <label for="">Your Name</label>
@@ -779,6 +796,7 @@
           </div>
         </div>
       </div>
+
       <!-- copyright -->
       <div class="copyright py-4 bg-footer">
         <div class="container">
@@ -843,25 +861,56 @@
   .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
     color: inherit;
 }
+.contract_view{
+  width: 400px;
+    margin-left: 16px;
+}
     </style>
 
 <script>
   function open_win()
 {
   // window.open("http://localhost/granite1/inspiration.html");
-  window.location.href = 'https://amoriotechnology.github.io/absolute/inspiration.html';
+  window.location.href = 'https://stockeai.com/absolute/inspiration.html';
 }
 
 function open_commercial()
 {
-  window.location.href = 'https://amoriotechnology.github.io/absolute/commercial.html';
+  window.location.href = 'https://stockeai.com/absolute/commercial.html';
 }
 
 function open_product()
 {
-  window.location.href = 'https://amoriotechnology.github.io/absolute/product.html';
+  window.location.href = 'https://stockeai.com/absolute/product.html';
 }
-</script>
 
+$("#hear_about").change(function () {
+        var end = $(this).val();
+       if(end=='contractors'){
+        $('#add_input').append('<br/><label style="margin-left: 16px;">Contractors</label><input type="text" name="contractors" class="form-control contract_view" id="contractors" />');
+       }else if(end=='family friends'){
+        $('#add_input').append('<br/><label style="margin-left: 16px;">Family Friends</label><input type="text" name="family_friends" class="form-control contract_view" id="family_friends" />');
+       }else if(end=='kitchen dealers'){
+        $('#add_input').append('<br/><label style="margin-left: 16px;">Kitchen Dealers</label><input type="text" name="kitchen_dealers" class="form-control contract_view" id="kitchen_dealers" />');
+       }else if(end=='owner'){
+        $('#add_input').append('<br/><label style="margin-left: 16px;">Owner</label><input type="text" name="owner" class="form-control contract_view" id="owner" />');
+       }else if(end=='staff'){
+        $('#add_input').append('<br/><label style="margin-left: 16px;">Staff</label><input type="text" name="staff" class="form-control contract_view" id="staff" />');
+       }
+       
+});
+
+
+</script>
+<script>
+$('#add_input').on('focusout',function(){
+var value = $('#add_input').find('input').attr('id');
+// alert(value);
+      //  var id = $('input[id^="contractors"]').attr('id');
+        $("#hear").val(value);
+});
+
+
+</script>
   </body>
 </html>

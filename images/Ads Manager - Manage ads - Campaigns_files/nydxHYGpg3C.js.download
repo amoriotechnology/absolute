@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("StgComponentCaptionSmallBoldCenterShowreelAssetSchema",["ShowreelCaptionFieldSchema"],(function(a,b,c,d,e,f){"use strict";a={type:"Shape",fields:{showreelCaptionField:babelHelpers["extends"]({name:"ShowreelCaptionField",nullable:!1,"default":null},b("ShowreelCaptionFieldSchema"))},nullable:!1,"default":null,name:"StgComponentCaptionSmallBoldCenterShowreelAsset"};e.exports=a}),null);

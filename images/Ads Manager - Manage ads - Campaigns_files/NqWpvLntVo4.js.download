@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("AdsUEditorAdgroupPeerApprovalWarningContainerPlugin",["AdsUEditorAdgroupPeerApprovalWarningContainer.react","react"],(function(a,b,c,d,e,f,g){"use strict";var h=d("react");a={type:"ueditor/adgroup/section",key:"adgroupPeerApprovalWarningContainer",genKeyToModuleMap:!0,render:function(){return h.jsx(c("AdsUEditorAdgroupPeerApprovalWarningContainer.react"),{})}};b=a;g["default"]=b}),98);

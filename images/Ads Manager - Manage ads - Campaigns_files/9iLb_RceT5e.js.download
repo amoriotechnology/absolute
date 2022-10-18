@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("STGCaptionFieldSchema",[],(function(a,b,c,d,e,f){"use strict";a={type:"Node",componentTypes:["Caption"],nullable:!1,"default":null,name:"STGCaptionField"};e.exports=a}),null);
